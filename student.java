@@ -21,8 +21,8 @@ System.out.println("the marks of the three subjects are: "+marks[i]);
 }
 }
 
-void calcsgpa(){
-int sum;
+void calcscgpa(){
+int sum=0;
 for(int i=0;i<3;i++){
 sum = marks[i] + sum;
 }
